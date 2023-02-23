@@ -31,14 +31,7 @@ body{
 
 }
 
-@media(max-width:1000px){
-    .wrapper{
-        width: 600px;
-        height: 600px;
 
-    }
-
-}
 
 @media(max-width:650px){
     .wrapper{
@@ -113,10 +106,6 @@ font-size: 2em;
     
     .container{
         font-size: 4em;
-    }
-    .letters{
-        width: 2.8em;
-        height: 2.8em;
     }
     #letterContainer{
         margin-top: 55px;
