@@ -7,7 +7,7 @@ const moviesObject = {
   '🦇👨‍⚖️' : 'Batman',
   '👰🏻❤️👹🥀🤴🏻' : 'Beauty and the Beast',
   '🤡🕷' : 'IT',
-  '🕷🧑🏻' : 'Spider-Man',
+  '🕷🧑🏻' : 'Spider Man',
   '👦🏻🏠🆘' : 'Home Alone',
   '🏹👩🏻🍕' : 'The Hunger Games',
   '🧙🏻‍♀️⚡️💀': 'Harry Potter',
