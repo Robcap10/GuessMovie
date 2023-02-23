@@ -84,15 +84,6 @@ font-size: 2em;
     margin: 0 3px 0 3px;
 }
 
-#result{
-    display: flex;
-    padding: 10px;
-    margin-bottom: 100px;
-    color: #121214;
-    font-size: 50px;
-    background-color: rgba(255, 255, 255, 0.7);
-    border: 1px solid ;
-}
 @media(max-width: 1000px) {
    
     #userInputSection{
@@ -123,10 +114,6 @@ font-size: 2em;
     .inputSpace {
         margin: 0 1.5px 0 1.5px;
     }
-    #result{
-        font-size: 40px;
-    }
-    
 }
 
 .controlsContainer{
@@ -142,6 +129,16 @@ font-size: 2em;
     left: 0;
 
 }
+
+#result{
+    display: flex;
+    padding: 10px;
+    margin-bottom: 100px;
+    color: #121214;
+    font-size: 50px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid ;
+}
 #start {
     background-color: #ffffff;
     font-size: 2em;
@@ -151,9 +148,30 @@ font-size: 2em;
 }
 
 @media(max-width: 450px) {
+    #result{
+        font-size: 40px;
+    }
+    
     #start{
         font-size: 1.5em;
 
+    }
+}
+
+@media(max-width: 350px) {
+    #result{
+        font-size: 30px;
+    }
+    #start{
+        font-size: 1em;
+    }
+}
+@media(max-width:260px){
+    #result{
+        font-size: 25px;
+    }
+    #start{
+        font-size: 0.9em;
     }
 }
 
@@ -175,3 +193,6 @@ font-size: 2em;
     border-color: #a1d9f6 ;
     color: #a1d9f6;
 }
+
+
+
