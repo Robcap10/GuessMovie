@@ -31,12 +31,30 @@ body{
 
 }
 
-@media(max-width: 450px){
+@media(max-width:1000px){
     .wrapper{
-        max-width: 500px;
+        width: 500px;
         height: 500px;
+
+    }
+
+}
+
+@media(max-width:650px){
+    .wrapper{
+        width: 400px;
+        height: 400px;
     }
 }
+
+@media(max-width: 450px){
+    .wrapper{
+        max-width: 350px;
+        height: 350px;
+    }
+}
+
+
 
 .triesLeft {
     text-align: right;
@@ -86,15 +104,25 @@ font-size: 2em;
 
 @media(max-width: 1000px) {
    
+    
+    .container{
+        font-size: 2.8em;
+    }
+    .letters{
+        width: 2em;
+        height: 2em;
+    }
+    #letterContainer{
+        margin-top: 25px;
+    }
+    #chanceCount{
+        font-size: 1.2em;
+    }
     #userInputSection{
-        font-size: 2em;
+        font-size: 1.8em;
     }
 }
 @media (max-width: 450px) {
-    .wrapper{
-        width:350px;
-        height:350px
-    }
     .container{
         font-size: 3em;
     }
@@ -104,9 +132,6 @@ font-size: 2em;
     }
     #letterContainer{
         margin-top: 25px;
-    }
-    #chanceCount{
-        font-size: 1.2em;
     }
     #userInputSection{
         font-size: 1em;
@@ -193,6 +218,8 @@ font-size: 2em;
     border-color: #a1d9f6 ;
     color: #a1d9f6;
 }
+
+
 
 
 
