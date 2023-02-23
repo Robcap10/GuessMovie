@@ -33,8 +33,8 @@ body{
 
 @media(max-width:1000px){
     .wrapper{
-        width: 500px;
-        height: 500px;
+        width: 600px;
+        height: 600px;
 
     }
 
@@ -42,14 +42,20 @@ body{
 
 @media(max-width:650px){
     .wrapper{
-        width: 400px;
-        height: 400px;
+        width: 500px;
+        height: 500px;
     }
 }
 
+@media(max-width: 550px){
+    .wrapper{
+        max-width: 400px;
+        height: 400px;
+    }
+}
 @media(max-width: 450px){
     .wrapper{
-        max-width: 350px;
+        width: 350px;
         height: 350px;
     }
 }
@@ -106,17 +112,14 @@ font-size: 2em;
    
     
     .container{
-        font-size: 2.8em;
+        font-size: 4em;
     }
     .letters{
-        width: 2em;
-        height: 2em;
+        width: 2.8em;
+        height: 2.8em;
     }
     #letterContainer{
-        margin-top: 25px;
-    }
-    #chanceCount{
-        font-size: 1.2em;
+        margin-top: 55px;
     }
     #userInputSection{
         font-size: 1.8em;
@@ -127,8 +130,8 @@ font-size: 2em;
         font-size: 3em;
     }
     .letters{
-        width: 1.5em;
-        height: 1.5em;
+        width: 1.8em;
+        height: 1.8em;
     }
     #letterContainer{
         margin-top: 25px;
@@ -138,6 +141,9 @@ font-size: 2em;
     }
     .inputSpace {
         margin: 0 1.5px 0 1.5px;
+    }
+    #chanceCount{
+        font-size: 1em;
     }
 }
 
@@ -218,8 +224,3 @@ font-size: 2em;
     border-color: #a1d9f6 ;
     color: #a1d9f6;
 }
-
-
-
-
-
