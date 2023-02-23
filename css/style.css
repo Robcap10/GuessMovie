@@ -30,6 +30,14 @@ body{
     /* align-items: center; */
 
 }
+
+@media(max-width: 450px){
+    .wrapper{
+        max-width: 500px;
+        height: 500px;
+    }
+}
+
 .triesLeft {
     text-align: right;
     margin: 0 0 2em 0;
@@ -61,12 +69,41 @@ color:#a1e5f5;
 .letters:hover{
     cursor: pointer;
 }
+#chanceCount {
+    font-size: 1.5em;
+}
 
 #userInputSection{
 display: flex;
 justify-content: center;
 gap: 0.5em;
+font-size: 2em;
 }
+@media(max-width: 1000px) {
+    #letterContainer {
+       gap: 15px;
+    }
+    #userInputSection{
+        font-size: 1em;
+    }
+}
+@media (max-width: 450px) {
+    .container{
+        font-size: 3em;
+    }
+    .letters{
+        width: 1.5em;
+        height: 1.5em;
+    }
+    #letterContainer{
+        gap:7px;
+    }
+    #chanceCount{
+        font-size: 1.2em;
+    }
+    
+}
+
 .controlsContainer{
     position: absolute;
     display: flex;
@@ -115,7 +152,4 @@ gap: 0.5em;
     font-size: 50px;
     background-color: rgba(255, 255, 255, 0.7);
     border: 1px solid ;
-}
-#chanceCount {
-    font-size: 1.5em;
 }
