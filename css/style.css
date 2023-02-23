@@ -31,7 +31,14 @@ body{
 
 }
 
+@media(max-width:1000px){
+    .wrapper{
+        width: 600px;
+        height: 600px;
 
+    }
+
+}
 
 @media(max-width:650px){
     .wrapper{
@@ -81,7 +88,8 @@ height: 3em;
 background-color: #ffffff;
 border: 2px solid #a1e5f5;
 color:#a1e5f5;
-margin: 2px;
+margin: 3px;
+font-size: 18px;
 }
 
 .letters:hover{
@@ -107,6 +115,10 @@ font-size: 2em;
     .container{
         font-size: 4em;
     }
+    .letters{
+        width: 2.8em;
+        height: 2.8em;
+    }
     #letterContainer{
         margin-top: 55px;
     }
@@ -114,13 +126,55 @@ font-size: 2em;
         font-size: 1.8em;
     }
 }
-@media (max-width: 450px) {
+
+@media(max-width: 750px){
+    .letters{
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 650px){
+    .container{
+        font-size: 3.5em;
+    }
+    .letters{
+        width: 2em;
+        height: 2em;
+    }
+    #letterContainer{
+        margin-top: 25px;
+    }
+   
+}
+
+@media(max-width: 550px){
     .container{
         font-size: 3em;
     }
     .letters{
         width: 1.8em;
         height: 1.8em;
+        font-size: 13px;
+    }
+    #userInputSection{
+        font-size: 1.5em;
+    }
+    .inputSpace {
+        margin: 0 1.5px 0 1.5px;
+    }
+    #chanceCount{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 450px) {
+    .container{
+        font-size: 2.5em;
+    }
+    .letters{
+        width: 1.5em;
+        height: 1.5em;
+
     }
     #letterContainer{
         margin-top: 25px;
@@ -132,7 +186,7 @@ font-size: 2em;
         margin: 0 1.5px 0 1.5px;
     }
     #chanceCount{
-        font-size: 1em;
+        font-size: 15px;
     }
 }
 
@@ -194,20 +248,16 @@ font-size: 2em;
         font-size: 0.9em;
     }
 }
-
 #start:active {
     box-shadow: 0 0 #000000 ;
     transform: translateY(7px);
 }
-
 #start:hover{
     cursor:pointer;
 }
-
 .hide{
     display: none;
 }
-
 .used{
     background-color: #f5f5f5f5;
     border-color: #a1d9f6 ;
